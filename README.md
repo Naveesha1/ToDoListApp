@@ -19,19 +19,34 @@ The application provides the following features:
    
 Project Structure 
 ●	TodoListApp/ 
-●	├── Models/ 
+
+●	├── Models/
+
 ●	│   └── TodoItem.cs            # Data model for todo items 
+
 ●	├── Pages/ 
 ●	│   ├── Create.cshtml          # Page for adding new todos 
+
 ●	│   ├── Create.cshtml.cs       # Code-behind for Create page 
+
 ●	│   ├── Edit.cshtml            # Page for editing existing todos 
+
 ●	│   ├── Edit.cshtml.cs         # Code-behind for Edit page 
+
 ●	│   ├── Index.cshtml           # Main listing page 
-●	│   ├── Index.cshtml.cs        # Code-behind for Index page 
-●	│   └── Shared/ 
-●	│       └── _Layout.cshtml     # Shared layout template 
-●	├── Services/ 
-●	│   └── TodoItemService.cs     # Service for CRUD operations ● └── Program.cs                 # Application configuration 
+
+●	│   ├── Index.cshtml.cs        # Code-behind for Index page
+
+●	│   └── Shared/
+
+●	│       └── _Layout.cshtml     # Shared layout template
+
+●	├── Services/
+
+●	│   └── TodoItemService.cs     # Service for CRUD operations
+
+●   └── Program.cs                 # Application configuration
+
  
 Components 
 Models 
