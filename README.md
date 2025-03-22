@@ -118,7 +118,7 @@ Local Development
 1.	Clone the repository 
 2.	Open the solution in Visual Studio 2022 
 3.	Press F5 to run the application 
-4.	Access the application at https://localhost:xxxx
+4.	Access the application at https://localhost:7037/
    
 Deployment
 The application can be deployed to: 
